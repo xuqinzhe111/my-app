@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import "@/app/globals.css";
 
 type RootLayoutProps = {
   children: ReactNode;
